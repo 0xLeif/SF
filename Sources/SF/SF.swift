@@ -1620,7 +1620,6 @@ public enum SF: String, CaseIterable {
     case battery_25
     case battery_0
     
-    
     var name: String {
         let formattedName = rawValue.replacingOccurrences(of: "_", with: ".")
         if formattedName.first == "." {
@@ -1632,7 +1631,8 @@ public enum SF: String, CaseIterable {
         
         return formattedName
     }
-    @available(OSX 10.15, *)
+    
+    @available(iOS 13.0, OSX 10.15, tvOS 13.0, watchOS 6.0, *)
     var image: Image {
         Image(name)
     }
