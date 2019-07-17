@@ -1,3 +1,3 @@
 # SF
 
-A description of this package.
+SFSymbols SwiftUI Enum

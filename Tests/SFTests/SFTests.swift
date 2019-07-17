@@ -6,7 +6,8 @@ final class SFTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SF().text, "Hello, World!")
+        XCTAssertEqual(SF.battery_25.name, "battery.25")
+        
     }
 
     static var allTests = [
