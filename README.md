@@ -11,3 +11,5 @@ All lines are equivalent.
     Image(systemName: SF.square_fill_and_line_vertical_square_fill.name)
             
     SF.square_fill_and_line_vertical_square_fill.image
+
+    Image(.square_fill_and_line_vertical_square_fill)
